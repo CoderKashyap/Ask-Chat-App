@@ -15,8 +15,7 @@ const append = (message) => {
 }
 
 do {
-    // name1 = prompt('Please enter your name: ');
-    name1 = "Abhi"
+    name1 = prompt('Please enter your name: ');
 } while (!name1)
 socket.emit('New-user-joined', name1)
 
